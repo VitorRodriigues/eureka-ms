@@ -1,0 +1,13 @@
+server:
+  port: 0
+spring:
+  application:
+    name: user-ms
+  devtools:
+    remote:
+      restart:
+        enabled: true
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
